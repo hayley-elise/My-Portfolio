@@ -1,4 +1,3 @@
-//Setup
 var fsmActual = document.createElement('div');
 fsmActual.setAttribute('id', 'fsm_actual');
 document.body.appendChild(fsmActual);
@@ -10,7 +9,6 @@ var position = {};
 var size = {};
 
 
-//modal action stuffs
 var openFSM = function(event) {
 	var $this = event.currentTarget;
 	position = $this.getBoundingClientRect();
