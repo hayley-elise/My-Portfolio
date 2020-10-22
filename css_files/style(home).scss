@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	background-color: #f5f5f5;
 	font-family: 'Roboto', sans-serif;
-	
+
 	&.no-scroll {
 		overflow: hidden;
 	}
@@ -33,41 +33,44 @@ h1 {
 	border-radius: 10px;
 	transition: 1s;
 	cursor: pointer;
-	
+
 	.fa {
 		transition: 1s;
 		color: #f5f5f5;
 		font-size: 2.5vw;
-		
+
 		&:before {
 			color: #f5f5f5;
 		}
 	}
-	
+
 	.modal-content {
 		height: 0;
 		width: 0;
 		margin: 0;
 	}
-	
+
 	h1.modal-content {
 		opacity: 0;
 		transition: 1s;
 	}
-	
+
 	&.apple {
-		background: linear-gradient(135deg, #83458e 0%,#608dc9 100%);
+		background: linear-gradient(135deg, #83458e 0%, #608dc9 100%);
 	}
+
 	&.pied {
-		background: linear-gradient(135deg, #6ecdc7 0%,#c7e4ec 100%);
+		background: linear-gradient(135deg, #6ecdc7 0%, #c7e4ec 100%);
 	}
+
 	&.codepen {
-		background: linear-gradient(135deg, #778899 0%,#DCDCDC 100%);
+		background: linear-gradient(135deg, #778899 0%, #DCDCDC 100%);
 	}
+
 	&.google {
-		background: linear-gradient(135deg, #4285f4 0%,#ea4335 100%);
+		background: linear-gradient(135deg, #4285f4 0%, #ea4335 100%);
 	}
-	
+
 	&.growing {
 		h1.modal-content {
 			height: auto;
@@ -76,26 +79,29 @@ h1 {
 			transition-delay: 0.5s;
 		}
 	}
-	
+
 	&.full-screen {
 		height: 100vh;
 		z-index: 100;
 		margin: 0;
 		border-radius: 0;
-		
+
 		.fa {
 			font-size: 10vw;
 		}
+
 		.modal-content {
 			height: auto;
 			width: auto;
 			margin: inital;
 		}
+
 		h1.modal-content {
 			transition-delay: 0.5s;
 			opacity: 1;
 		}
 	}
+
 	&.shrinking {
 		h1.modal-content {
 			transition-delay: 0s;
@@ -104,7 +110,7 @@ h1 {
 			display: block;
 		}
 	}
-	
+
 	&-container {
 		display: flex;
 		justify-content: space-between;
