@@ -1,0 +1,97 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.fsm {
+  margin: 10vh 5vw;
+  background-color: blue;
+  height: 100px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.fsm .fa {
+  transition: 1s;
+  color: #f5f5f5;
+  font-size: 2.5vw;
+}
+.fsm .fa:before {
+  color: #f5f5f5;
+}
+.fsm .modal-content {
+  height: 0;
+  width: 0;
+  margin: 0;
+}
+.fsm h1.modal-content {
+  opacity: 0;
+  transition: 1s;
+}
+.fsm.about_me {
+  background: linear-gradient(135deg, #83458e 0%, #608dc9 100%);
+}
+.fsm.projects {
+  background: linear-gradient(135deg, #6ecdc7 0%, #c7e4ec 100%);
+}
+.fsm.contact_me {
+  background: linear-gradient(135deg, #778899 0%, #DCDCDC 100%);
+}
+.fsm.growing h1.modal-content {
+  height: auto;
+  margin: 0;
+  opacity: 0;
+  transition-delay: 0.5s;
+}
+.fsm.full-screen {
+  height: 100vh;
+  z-index: 100;
+  margin: 0;
+  border-radius: 0;
+}
+.fsm.full-screen .fa {
+  font-size: 10vw;
+}
+.fsm.full-screen .modal-content {
+  height: auto;
+  width: auto;
+  margin: inital;
+}
+.fsm.full-screen h1.modal-content {
+  transition-delay: 0.5s;
+  opacity: 1;
+}
+.fsm.shrinking h1.modal-content {
+  transition-delay: 0s;
+  transition: 0.5s;
+  opacity: 0;
+  display: block;
+}
+.fsm-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
