@@ -6,7 +6,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0;
-  background: url("C:Userssimmo\documentsGitHubMy-Portfolioimagesstarry_sky.gif");
+  background: url(css\images\starry_sky.gif);
   font-family: "Roboto", sans-serif;
 }
 body.no-scroll {
