@@ -1,6 +1,6 @@
 var fsmActual = document.createElement('div');
 fsmActual.setAttribute('id', 'fsm_actual');
-document.body.appendChild(fsmActual);
+document.body.appendChild();
 var $fsm = document.querySelectorAll('.fsm');;
 var $fsmActual = document.querySelector('#fsm_actual');
 $fsmActual.style.position = "absolute";
