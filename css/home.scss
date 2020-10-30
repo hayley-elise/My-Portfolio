@@ -6,7 +6,6 @@ body {
 	align-items: center;
 	flex-direction: column;
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
 
 	&.no-scroll {
 		overflow: hidden;
@@ -14,9 +13,9 @@ body {
 }
 
 h1 {
-	font-weight: 900;
-	text-transform: uppercase;
+	font-size: 95px;
 	color: white;
+	font-family: 'Great Vibes', cursive;
 }
 
 .fsm {
