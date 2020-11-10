@@ -17,6 +17,12 @@ h1 {
   font-family: "Great Vibes", cursive;
 }
 
+p {
+  font-size: 90px;
+  color: white;
+  font-family: "Bad Script", cursive;
+}
+
 .fsm {
   margin: 10vh 5vw;
   background-color: blue;
@@ -45,7 +51,7 @@ h1 {
   width: 0;
   margin: 0;
 }
-.fsm h1.modal-content {
+.fsm p.modal-content {
   opacity: 0;
   transition: 1s;
 }
@@ -58,7 +64,7 @@ h1 {
 .fsm.contact_me {
   background: linear-gradient(135deg, #778899 0%, #DCDCDC 100%);
 }
-.fsm.growing h1.modal-content {
+.fsm.growing p.modal-content {
   height: auto;
   margin: 0;
   opacity: 0;
@@ -78,11 +84,11 @@ h1 {
   width: auto;
   margin: inital;
 }
-.fsm.full-screen h1.modal-content {
+.fsm.full-screen p.modal-content {
   transition-delay: 0.5s;
   opacity: 1;
 }
-.fsm.shrinking h1.modal-content {
+.fsm.shrinking p.modal-content {
   transition-delay: 0s;
   transition: 0.5s;
   opacity: 0;

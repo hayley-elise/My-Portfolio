@@ -18,6 +18,12 @@ h1 {
 	font-family: 'Great Vibes', cursive;
 }
 
+p {
+	font-size: 50px;
+	color: white;
+	font-family: 'Bad Script', cursive;
+}
+
 .fsm {
 	margin: 10vh 5vw;
 	background-color: blue;
@@ -49,7 +55,7 @@ h1 {
 		margin: 0;
 	}
 
-	h1.modal-content {
+	p.modal-content {
 		opacity: 0;
 		transition: 1s;
 	}
@@ -67,7 +73,7 @@ h1 {
 	}
 
 	&.growing {
-		h1.modal-content {
+		p.modal-content {
 			height: auto;
 			margin: 0;
 			opacity: 0;
@@ -91,14 +97,14 @@ h1 {
 			margin: inital;
 		}
 
-		h1.modal-content {
+		p.modal-content {
 			transition-delay: 0.5s;
 			opacity: 1;
 		}
 	}
 
 	&.shrinking {
-		h1.modal-content {
+		p.modal-content {
 			transition-delay: 0s;
 			transition: 0.5s;
 			opacity: 0;
