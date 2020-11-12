@@ -13,18 +13,16 @@ body.no-scroll {
 
 h1 {
   font-size: 100px;
-  color: white;
-  font-family: "Alex Brush", cursive;
+  color: #a77fd6;
 }
 
 b {
-  color: #3e0a5c;
+  color: #a77fd6;
 }
 
 h2 {
   font-size: 65px;
   color: white;
-  font-family: "Euphoria Script", cursive;
 }
 
 p {
