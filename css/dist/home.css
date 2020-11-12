@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "First In Line";
+  src: url("css/FirstInLine-1VzB.eot");
+  /* IE9 Compat Modes */
+  src: url("css/FirstInLine-1VzB.eot?#iefix") format("embedded-opentype"), url("css/FirstInLine-1VzB.woff") format("woff"), url("css/FirstInLine-1VzB.ttf") format("truetype"), url("css/FirstInLine-1VzB.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -14,6 +21,7 @@ body.no-scroll {
 h1 {
   font-size: 100px;
   color: #a77fd6;
+  font-family: "First In Line";
 }
 
 b {
