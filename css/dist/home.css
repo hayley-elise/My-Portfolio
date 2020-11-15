@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "FirstInLine";
+  src: url("firstinline-1vzb-webfont.eot");
+  src: url("firstinline-1vzb-webfont.ttf") url("firstinline-1vzb-webfont.woff") format("woff"), url("firstinline-1vzb-webfont.woff2") format("woff2"), url("firstinline-1vzb-webfont.svg") format("svg");
+}
 body {
   width: 100vw;
   height: 100vh;
