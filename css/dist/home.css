@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "FirstInLine";
-  src: url("firstinline-1vzb-webfont.eot");
-  src: url("firstinline-1vzb-webfont.ttf") url("firstinline-1vzb-webfont.woff") format("woff"), url("firstinline-1vzb-webfont.woff2") format("woff2"), url("firstinline-1vzb-webfont.svg") format("svg");
-}
+@import url("https://www.fontspace.com/first-in-line-font-f30462");
 body {
   width: 100vw;
   height: 100vh;
@@ -19,7 +15,7 @@ body.no-scroll {
 h1 {
   font-size: 100px;
   color: #a77fd6;
-  font-family: "FirstInLine";
+  font-family: "First In Line Font";
 }
 
 b {
