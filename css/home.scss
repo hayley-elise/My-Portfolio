@@ -1,4 +1,7 @@
-@import url('https://www.fontspace.com/first-in-line-font-f30462');
+@font-face {
+	font-family: First In Line;
+	src: url(css\FirstInLine-1VzB.ttf);
+ }
 
 body {
 	width: 100vw;
@@ -17,7 +20,7 @@ body {
 h1 {
 	font-size: 100px;
 	color: rgb(167, 127, 214);
-	font-family: 'First In Line Font';
+	font-family: 'First In Line';
 }
 
 b {
