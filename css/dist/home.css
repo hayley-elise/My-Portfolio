@@ -16,7 +16,7 @@ body.no-scroll {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 125px;
   color: #a77fd6;
   font-family: "First In Line";
 }
@@ -26,8 +26,9 @@ b {
 }
 
 h2 {
-  font-size: 65px;
+  font-size: 85px;
   color: white;
+  font-family: "Dynalight", cursive;
 }
 
 p {
